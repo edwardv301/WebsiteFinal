@@ -1,0 +1,441 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    
+    min-width: 800px;
+    position: relative; /*The element is positioned relative to its normal position.*/
+    padding-bottom: 50px; /*Creates a space around the bottom of an element*/
+}
+/*body::after{ content:''; display:block; height:100px; }*/
+
+/*
+.background{
+    width: 100%;
+    height: auto;
+    background-image: url("/images/background2.png");
+    background-image:   url(Images/mainlogo.svg) right bottom no-repeat, url(/images/background2.png) left top no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+*/
+
+/*--------------------------------------------------
+====================================================
+--------------      TYPOGRAPHY    ------------------
+====================================================
+----------------------------------------------------*/
+
+p{
+    font-family: 'Gill', sans-serif; /*Changes the font*/
+    font-size: 20px; /*Changes the size of the font*/
+    
+}
+h1{
+    font-family: 'Gill', sans-serif; /*Changes the font*/
+    /*Changes the size of the font*/
+    font-weight: 100;
+}
+
+h2{
+    font-family: 'Gill', sans-serif; /*Changes the font*/
+    font-size: 72px; /*Changes the size of the font*/
+}
+
+h3{
+    font-family: 'Gill', sans-serif; /*Changes the font*/
+    font-size: 18px; /*Changes the size of the font*/
+}
+
+.heading{
+    position: absolute;
+    padding: 10px;
+    top: 700px;
+    left: 10%;
+    
+}
+
+.heading1{
+    position: absolute;
+    padding: 10px;
+    left: 50%;
+    top: 1200px;
+    font-size: 38px;
+
+}
+
+/*--------------------------------------------------
+====================================================
+-------------------    IMAGES    -------------------
+====================================================
+----------------------------------------------------*/
+
+img{
+    width: 50%;
+}
+
+.imgFit2{
+    width: 100%; /*Changes the width of an element*/
+    padding-right: 20px; /*Creates a space around the right side of an element*/
+    padding-top: 50px; /*Creates a space around the top of an element*/
+}
+
+.mainimg{
+    width: 46.9%;
+    position: absolute;
+    left: 52%;
+    top: 45%;
+    z-index: -1;
+    min-width: 800px;
+}
+
+.mainimg2{
+    width: 46.9%;
+    position: absolute;
+    left: 52%;
+    z-index: -1;
+}
+.mainlogo{
+    width: 30%; /*Changes the width of an element*/
+    height: 30%; /*Changes the height of an element*/
+    padding-top: 25px; /*Creates a space around the top of an element*/
+    padding-left: 10px; /*Creates a space around the left side of an element*/
+    position: absolute; /*The element is positioned relative to its normal position.*/
+}
+
+.logo {
+    width:40%;/*Changes the width of an element*/
+    padding-top: 25px; /*Creates a space around the top of an element*/
+    position: absolute;
+    left: 2%;
+/*    position:absolute;*/
+ /*    z-index: 1; */
+}
+
+.circle{
+    position: absolute;
+    left: -32%;
+    top: 420px;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    
+    
+}
+
+.circle1{
+    position: absolute;
+    left: -113px;
+    top: 98px;
+    z-index: -1;
+    width: 95%
+}
+
+.circle2{
+    position: relative;
+    left: -52%;
+    bottom: 1000px;
+    z-index: -1;
+    width: auto;
+    min-width: 100%;
+}
+.icons{
+    width: 20%;
+    float:left;
+    margin-right:5px;
+    padding: 20px;
+}
+
+
+.instagram,.twitter,.reddit,.tumblr,.facebook{
+    float: left;  
+    text-align: center; 
+    width: 21%; 
+    margin-right: 3%; 
+    margin-bottom: 0.5em;
+    margin-bottom: 5%;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+    top: 1500px;
+}
+
+.instagram1,.twitter1,.reddit1,.tumblr1,.facebook1{
+    float: right;  
+    text-align: center; 
+    width: 9.8%; 
+    margin-right: 1%; 
+    margin-bottom: 0.5em;
+    margin-bottom: 5%;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin: 0 auto;
+    
+}
+
+.apps{
+    float: left;  
+    text-align: center; 
+    width: 32%; 
+    margin-right: 1%; 
+    margin-bottom: 0.5em;
+    margin-bottom: 5%;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    
+}
+
+.youtube, .facebook{
+    padding-bottom: 100px;
+}
+
+.iframe1{
+    position: relative;
+    top: 170px;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+/*--------------------------------------------------
+====================================================
+--------------      STRUCTURE    ------------------
+====================================================
+----------------------------------------------------*/
+
+
+.gallery{
+    display: grid; /*Displays the element in a grid format*/
+    width: 40%;
+    margin:0 auto;
+    padding-bottom: 40px;
+}
+
+.col2 {
+	width: 50%; /*Changes the width of an image*/
+	 /*Creates a space around an element*/
+}
+
+.col3 {
+	width: 55%;
+    padding-top: 50px;/*Changes the width of an image*/
+    padding-bottom: 180px;
+	 /*Creates a space around an element*/
+}
+
+.contact{
+    text-align: center;
+    margin-top: -30px;
+    clear: both;
+}
+
+.contact4{
+    text-align: center;
+    margin-top: -30px;
+    clear: both;
+    position: relative;
+    top: 1200px;
+}
+
+
+.contact1{
+    font-size: 32px;
+    padding-top: 10px;
+ 
+}
+
+.contact2{
+    position: relative;
+    top: 130px;
+}
+
+.contact3{
+    width: 14%;
+    position: relative;
+    top: 170px;
+}
+
+iframe{
+    margin: 0 auto;
+    text-align: center;
+    top: 100px;
+    left: 85px;
+    padding-bottom: 70px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    font-family: 'Gill', sans-serif; /*Changes the font*/
+    font-size: 20px; /*Changes the size of the font*/
+    width: 50px;
+    height: 50px;
+    margin: 100px;
+}
+
+.table{
+    width: 60%;
+    margin: 0;
+    text-align: center;
+     margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+.row {
+	width:80%; /*Changes the width of an element*/
+	margin: 0 auto; /*Creates a margin around an element*/
+	display:flex;  /*Prevents overflow and allows another element to align next to it*/
+	justify-content:space-around;  /*Defines how the browser distributes space between and around content items*/
+    padding: 20px;
+}
+
+.row3{
+    text-align: left; /*Aligns the text to the left*/
+    border-top: 2px solid #000000; /*Creates a border at the top on an element*/
+    display: flex; /*Prevents overflow and allows another element to align next to it*/
+}
+
+.row4 {
+	width:90%; /*Changes the width of an element*/
+	margin: 0 auto; /*Creates a margin around an element*/
+	display:flex;  /*Prevents overflow and allows another element to align next to it*/
+	justify-content:space-around;  /*Defines how the browser distributes space between and around content items*/
+    
+}
+
+.wrapper {
+    display: flex; /*Prevents overflow and allows another element to align next to it*/
+    width: auto; /*Changes the width of an element*/
+    justify-content: space-around; /*Defines how the browser distributes space between and around content items*/
+    height:130px; /*Changes the height of an element*/
+/*    background-image: url("images/background2.png");*/
+}
+
+.bg1{
+    width: 100%; /*Changes the width of an element*/
+    height: 100%; /*Changes the height of an element*/
+    padding-bottom: 20px; /*Creates a space around the bottom of an element*/
+}
+
+footer{ 
+    position:fixed;  
+    width:100%; /*Changes the width of an element*/
+    height: 50px; /*Changes the height of an element*/
+    background:#000000; /*Changes the colour of the background*/
+    margin-top: auto;  /*Creates a margin at the top of an element*/
+    left: 0; /*Moves the element to the left*/
+    bottom: 0; /*Moves the element to the bottom*/
+    overflow: hidden;
+    
+}
+
+.footertext{
+    font-size: 16px; /*Changes the size of the font*/
+    font:bold; /*Changes the style of the font*/
+    text-align:left; /*Aligns the text to the left*/
+    font-family: 'Montserrat', sans-serif; /*Changes the font*/
+    color: white; /*Changes the colour of the font*/
+}
+
+.footerlink{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------
+====================================================
+--------------      NAVIGATION    ------------------
+====================================================
+----------------------------------------------------*/
+
+.nav{
+    width: 240%;
+    position: relative;/*Changes the width of an element*/
+    left: 3%;
+/*
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 1;
+*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    
+}
+
+.main-nav,
+.drop-nav {
+  background:rgba(255,255,255,.0)
+    
+}
+.main-nav {
+  float: right;
+  border-radius: 4px;
+    position: relative;
+    left: 25%;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Gill', sans-serif;
+    font-weight: 100;
+    max-width: 100%;
+    height: auto;
+    
+}
+  .main-nav > li {
+    float: left;
+    border-left: solid 1px #fff;
+  }
+  .main-nav li:first-child {
+    border-left: none;
+  }
+  .main-nav a {
+    color: #000;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+
+.dropdown,
+.flyout {
+  position: relative;
+}
+.dropdown:after {
+  content: "\25BC";
+  font-size: .5em;
+  display: block;
+  position: absolute;
+  top: 38%;
+  right: 10%;
+}
+.drop-nav {
+  position: absolute;
+  display: none;
+
+}
+.drop-nav li {
+  border-bottom: #fff;
+}
+.dropdown:hover > .drop-nav {
+  display: block;
+    background-color: #fff;
+    position: absolute;
+    bottom: -300px;
+    right: 1px;
+}
+
